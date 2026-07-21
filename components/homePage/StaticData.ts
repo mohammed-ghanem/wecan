@@ -138,7 +138,7 @@ export const designsData: DesignCard[] = [
       en: "Visit website",
       ar: "زيارة الموقع",
     },
-    image: "/assets/images/wego.png",
+    image: "/assets/images/wegoo.png",
   },
   {
     id: 7,
