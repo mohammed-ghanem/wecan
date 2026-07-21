@@ -29,17 +29,6 @@ export default function DesignsSection() {
             </h2>
             <p className="mt-3 text-base text-slate-400 sm:text-lg">{t.subtitle}</p>
           </div>
-          {portfolioData.company.behance ? (
-            <a
-              href={portfolioData.company.behance}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex shrink-0 items-center gap-2 self-start rounded-full border border-white/15 px-4 py-2 text-sm font-medium text-slate-200 transition hover:border-[#9FE870]/40 hover:text-[#9FE870]"
-            >
-              {t.viewAll}
-              <ArrowUpRight className="h-4 w-4" />
-            </a>
-          ) : null}
         </div>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
