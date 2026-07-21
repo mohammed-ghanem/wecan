@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
-import path from "path";
+// import path from "path";
 
-const canvasStub = path.join(process.cwd(), "lib/empty-canvas-stub.js");
+// const canvasStub = path.join(process.cwd(), "lib/empty-canvas-stub.js");
 
 const nextConfig: NextConfig = {
   images: {
@@ -15,13 +15,14 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  webpack: (config) => {
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      canvas: canvasStub,
-    };
-    return config;
-  },
+  // Temporarily disabled to test webpack cache warnings
+  // webpack: (config) => {
+  //   config.resolve.alias = {
+  //     ...config.resolve.alias,
+  //     canvas: canvasStub,
+  //   };
+  //   return config;
+  // },
   turbopack: {
     resolveAlias: {
       canvas: "./lib/empty-canvas-stub.js",
