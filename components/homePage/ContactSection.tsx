@@ -3,10 +3,18 @@
 import TranslateHook from "@/translate/TranslateHook";
 import portfolioData from "@/data/projects.json";
 
+/** Digits only for https://wa.me/<number> (include country code, no +). */
+function toWhatsAppHref(phone: string) {
+  const digits = phone.replace(/\D/g, "");
+  if (!digits) return null;
+  return `https://wa.me/${digits}`;
+}
+
 export default function ContactSection() {
   const translate = TranslateHook();
   const t = translate?.wecan?.contact;
-  const email = portfolioData.company.email;
+  const { email, phone } = portfolioData.company;
+  const whatsappHref = toWhatsAppHref(phone);
 
   if (!t) return null;
 
@@ -21,6 +29,7 @@ export default function ContactSection() {
             {t.title}
           </h2>
           <p className="mt-3 max-w-xl text-base text-slate-300 sm:text-lg">{t.subtitle}</p>
+
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <a
               href={`mailto:${email}`}
@@ -28,10 +37,20 @@ export default function ContactSection() {
             >
               {t.cta}
             </a>
-            <p className="text-sm text-slate-400" dir="ltr">
-              {email}
-            </p>
+
+            {whatsappHref ? (
+              <a
+                href={whatsappHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/5 px-6 py-3 text-sm font-semibold text-white backdrop-blur transition hover:border-[#9FE870]/50 hover:bg-white/10"
+              >
+                {t.whatsapp}
+              </a>
+            ) : null}
           </div>
+
+          
         </div>
       </div>
     </section>

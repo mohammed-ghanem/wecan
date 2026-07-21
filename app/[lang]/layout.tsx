@@ -7,7 +7,7 @@ import Footer from "@/components/footer/Footer";
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://wecan.dev"),
+  metadataBase: new URL("https://wecandevmode.online"),
 
   title: "WeCan For Development",
 
@@ -35,16 +35,16 @@ export const metadata: Metadata = {
     title: "WeCan For Development",
     description:
       "We design and develop websites, mobile apps, dashboards, and scalable digital products.",
-    url: "https://wecan.dev",
+    url: "https://wecandevmode.online",
     siteName: "WeCan For Development",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "@/public/assets/images/logo.png",
         width: 1200,
         height: 630,
-        alt: "WeCan For Development",
+        alt: "WeCan For Development Logo",
       },
     ],
   },
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     title: "WeCan For Development",
     description:
       "We design and develop websites, mobile apps, dashboards, and scalable digital products.",
-    images: ["/og-image.jpg"],
+    images: ["@/public/assets/images/logo.png"],
   },
 };
 

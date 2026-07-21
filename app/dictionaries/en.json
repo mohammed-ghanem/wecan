@@ -44,8 +44,10 @@
     "contact": {
       "title": "Let’s build the next one",
       "subtitle": "Whether you're starting from scratch or improving an existing product, we'll help you design, build, and launch with confidence.",
-      "cta": "Start Your Project"
+      "cta": "Email us",
+      "whatsapp": "Chat on WhatsApp"
     },
+
     "footer": {
       "blurb": "Building digital products that scale with your business",
       "rights": "All rights reserved for"
