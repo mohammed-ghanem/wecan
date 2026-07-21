@@ -1,0 +1,79 @@
+{
+  "company": {
+    "name": "WeCan For Development",
+    "nameAr": "وي كان للتطوير",
+    "tagline": {
+      "en": "We build software that moves businesses forward.",
+      "ar": "نبني برمجيات تدفع أعمالكم للأمام."
+    },
+    "description": {
+      "en": "A software studio crafting web platforms, admin dashboards, and digital products with clarity, speed, and craft.",
+      "ar": "استوديو برمجي يصمم منصات ويب ولوحات تحكم ومنتجات رقمية بوضوح وسرعة وحِرَفية."
+    },
+    "email": "info@wecan.dev",
+    "phone": "+20 000 000 0000",
+    "behance": "https://www.behance.net/"
+  },
+  "projects": [
+    {
+      "id": "mandakar",
+      "title": {
+        "en": "Mandakar Digital Library",
+        "ar": "مكتبة مندكار الرقمية"
+      },
+      "description": {
+        "en": "A bilingual digital heritage platform with rich media, search, and content management.",
+        "ar": "منصة تراث رقمية ثنائية اللغة مع وسائط غنية وبحث وإدارة محتوى."
+      },
+      "url": "https://mandakar.example.com",
+      "image": "",
+      "tags": ["Next.js", "CMS", "RTL"],
+      "accent": "#9FE870"
+    },
+    {
+      "id": "mandakar-dashboard",
+      "title": {
+        "en": "Mandakar Dashboard",
+        "ar": "لوحة تحكم مندكار"
+      },
+      "description": {
+        "en": "Admin dashboard for content, roles, and settings with a polished Arabic-first UI.",
+        "ar": "لوحة إدارة للمحتوى والصلاحيات والإعدادات بواجهة عربية أنيقة."
+      },
+      "url": "https://dashboard-mandakar.example.com",
+      "image": "",
+      "tags": ["Next.js", "Redux", "CKEditor"],
+      "accent": "#2DD4BF"
+    },
+    {
+      "id": "sorooj-academy",
+      "title": {
+        "en": "Sorooj Academy",
+        "ar": "أكاديمية سروج"
+      },
+      "description": {
+        "en": "Learning platform and academic dashboard for courses, exams, and student workflows.",
+        "ar": "منصة تعليمية ولوحة أكاديمية للمقررات والاختبارات ومسارات الطلاب."
+      },
+      "url": "https://academy.sorooj.org",
+      "image": "",
+      "tags": ["Education", "Dashboard", "API"],
+      "accent": "#9FE870"
+    },
+    {
+      "id": "sorooj-dashboard",
+      "title": {
+        "en": "Sorooj Academy Dashboard",
+        "ar": "لوحة أكاديمية سروج"
+      },
+      "description": {
+        "en": "Operations console for admins, roles, privacy content, and institutional settings.",
+        "ar": "منصة تشغيل للإدارة والصلاحيات وسياسات الخصوصية وإعدادات المؤسسة."
+      },
+      "url": "https://dashboard-academy.example.com",
+      "image": "",
+      "tags": ["Admin", "Settings", "Auth"],
+      "accent": "#2DD4BF"
+    }
+  ]
+}

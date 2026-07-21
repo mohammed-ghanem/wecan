@@ -1,0 +1,54 @@
+{
+  "wecan": {
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "works": "Our work",
+      "contact": "Contact"
+    },
+    "hero": {
+      "eyebrow": "DIGITAL PRODUCT STUDIO",
+      "headline": "Design and development for web and apps.",
+      "support": " From analysis and UI/UX design to full-stack delivery — We create high-performance websites and applications built for speed, scalability, and success.",
+      "ctaProjects": "View our work",
+      "ctaContact": "Talk to us"
+    },
+    "services": {
+      "title": "Digital Solutions for Modern Businesses",
+      "subtitle": "We help businesses design, develop, and scale digital products with modern technologies and user-centered experiences.",
+      "items": [
+        {
+          "title": "UI/UX Design",
+          "text": "Modern UI systems and responsive interfaces designed for better user experiences."
+        },
+        {
+          "title": "Website Development",
+          "text": "Fast, maintainable web builds — public sites, content systems, and dashboards ready to grow."
+        },
+        {
+          "title": "Mobile App Development",
+          "text": "UI/UX for mobile and web apps — flows, screens, and interaction patterns that feel intuitive."
+        },
+        {
+          "title": "Custom Software Solutions",
+          "text": "Product engineering for web and mobile experiences, from MVP to production-ready systems."
+        }
+      ]
+    },
+    "designs": {
+      "title": "Our work",
+      "subtitle": "Selected projects across UI/UX design, programming, web & app development, and digital products.",
+      "openDesign": "View on Behance",
+      "viewAll": "Behance profile"
+    },
+    "contact": {
+      "title": "Let’s build the next one",
+      "subtitle": "Whether you're starting from scratch or improving an existing product, we'll help you design, build, and launch with confidence.",
+      "cta": "Start Your Project"
+    },
+    "footer": {
+      "blurb": "Building digital products that scale with your business",
+      "rights": "All rights reserved for"
+    }
+  }
+}
