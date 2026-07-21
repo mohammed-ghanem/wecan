@@ -12,7 +12,6 @@ export default function Footer() {
   const lang = (LangUseParams() as string) || defaultLocale;
   const translate = TranslateHook();
   const t = translate?.wecan;
-  const year = new Date().getFullYear();
   const homeHref = lang === "ar" || lang === defaultLocale ? "/" : `/${lang}`;
 
   if (!t) return null;
@@ -57,7 +56,7 @@ export default function Footer() {
             WeCan For Development
             <span className=" text-slate-500">
               {" "}
-              © {year} - {new Date().getFullYear()} .
+              © {2021} - {new Date().getFullYear()} .
             </span>
           </Link>
         </div>
