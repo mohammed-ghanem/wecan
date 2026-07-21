@@ -8,10 +8,6 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "backend-academy.sorooj.org",
-      },
-      {
-        protocol: "https",
         hostname: "img.youtube.com",
       },
     ],
