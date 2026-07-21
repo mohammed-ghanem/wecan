@@ -162,7 +162,7 @@ export const designsData: DesignCard[] = [
   {
     id: 8,
     title: {
-      en: "Hamdan Al-Hajri Official Website",
+      en: "Hamad Al-Hajri Official Website",
       ar: "الموقع الرسمى لفضيلة الدكتور حمد بن محمد الهاجرى",
     },
     description: {
