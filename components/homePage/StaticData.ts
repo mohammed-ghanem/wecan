@@ -45,7 +45,7 @@ export const designsData: DesignCard[] = [
       en: "Visit website",
       ar: "زيارة الموقع",
     },
-    image: "/assets/images/sorooj-center.png",
+    image: "/assets/images/sorooj-center.webp",
   },
   {
     id: 2,
@@ -64,7 +64,7 @@ export const designsData: DesignCard[] = [
       en: "Visit website",
       ar: "زيارة الموقع",
     },
-    image: "/assets/images/dukkanti.png",
+    image: "/assets/images/dukkanti.webp",
   },
   {
     id: 3,
@@ -82,7 +82,7 @@ export const designsData: DesignCard[] = [
       en: "Visit website",
       ar: "زيارة الموقع",
     },
-    image: "/assets/images/sorooj-academy.png",
+    image: "/assets/images/sorooj-academy.webp",
   },
   {
     id: 4,
@@ -101,7 +101,7 @@ export const designsData: DesignCard[] = [
       en: "Visit website",
       ar: "زيارة الموقع",
     },
-    image: "/assets/images/decorize.png",
+    image: "/assets/images/decorize.webp",
   },
   {
     id: 5,
@@ -119,7 +119,7 @@ export const designsData: DesignCard[] = [
       en: "Visit website",
       ar: "زيارة الموقع",
     },
-    image: "/assets/images/mandakar.png",
+    image: "/assets/images/mandakar.webp",
   },
   {
     id: 6,
@@ -138,7 +138,7 @@ export const designsData: DesignCard[] = [
       en: "Visit website",
       ar: "زيارة الموقع",
     },
-    image: "/assets/images/wegoo.png",
+    image: "/assets/images/wegoo.webp",
   },
   {
     id: 7,
@@ -157,7 +157,7 @@ export const designsData: DesignCard[] = [
       en: "Visit website",
       ar: "زيارة الموقع",
     },
-    image: "/assets/images/tawasal.png",
+    image: "/assets/images/tawasal.webp",
   },
   {
     id: 8,
@@ -175,7 +175,7 @@ export const designsData: DesignCard[] = [
       en: "Visit website",
       ar: "زيارة الموقع",
     },
-    image: "/assets/images/hamad.png",
+    image: "/assets/images/hamad.webp",
   },
   {
     id: 9,
@@ -193,7 +193,26 @@ export const designsData: DesignCard[] = [
       en: "Visit website",
       ar: "زيارة الموقع",
     },
-    image: "/assets/images/coffee.png",
+    image: "/assets/images/coffee.webp",
+  },
+  {
+    id: 10,
+    title: {
+      en: "Se7ty / Appointmwnt app",
+      ar: "صحتى / تطبيق حجز مواعيد",
+    },
+    description: {
+      en: "Se7ty is an appointment app that allows you to book appointments with doctors and get medical advice.",
+      ar: "صحتى - تطبيق حجز مواعيد يسمح لك بحجز مواعيد مع الأطباء والحصول على مشاورات طبية.",
+    },
+    behanceUrl:
+      "https://www.behance.net/gallery/167536045/Se7tyAppointmwnt-appArabic-case-study",
+    projectUrl: "",
+    projectTitle: {
+      en: "Visit website",
+      ar: "زيارة الموقع",
+    },
+    image: "/assets/images/se7ty.webp",
   },
 ];
 
