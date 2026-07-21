@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "@/public/assets/images/logo.png",
+        url: "https://wecandevmode.online/assets/images/meta.jpeg",
         width: 1200,
         height: 630,
         alt: "WeCan For Development Logo",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     title: "WeCan For Development",
     description:
       "We design and develop websites, mobile apps, dashboards, and scalable digital products.",
-    images: ["@/public/assets/images/logo.png"],
+    images: ["https://wecandevmode.online/assets/images/meta.jpeg"],
   },
 };
 
